@@ -12,6 +12,12 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    compile files('libs/volley.jar')
+    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+}
+
 android {
     compileSdkVersion 17
     buildToolsVersion "17.0.0"
@@ -22,5 +28,4 @@ android {
     }
 }
 
-dependencies {
-}
+

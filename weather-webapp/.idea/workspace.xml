@@ -7,7 +7,7 @@
     <file path="/appengine-web.xml" changelist="16b00f27-bb7e-4186-804f-85389f19c129" time="1380805396511" ignored="false" />
     <file path="/index.jsp" changelist="16b00f27-bb7e-4186-804f-85389f19c129" time="1380805428785" ignored="false" />
     <file path="/web.xml" changelist="16b00f27-bb7e-4186-804f-85389f19c129" time="1380806482499" ignored="false" />
-    <file path="/CurrentTemperatureServlet.java" changelist="16b00f27-bb7e-4186-804f-85389f19c129" time="1380810188521" ignored="false" />
+    <file path="/CurrentTemperatureServlet.java" changelist="16b00f27-bb7e-4186-804f-85389f19c129" time="1380822778487" ignored="false" />
     <file path="/CurrentTemperature.java" changelist="16b00f27-bb7e-4186-804f-85389f19c129" time="1380815030859" ignored="false" />
     <file path="/GsonUtils.java" changelist="16b00f27-bb7e-4186-804f-85389f19c129" time="1380810108304" ignored="false" />
     <file path="/NsuWeatherProvider.java" changelist="16b00f27-bb7e-4186-804f-85389f19c129" time="1380815052754" ignored="false" />
@@ -138,19 +138,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentTemperatureServlet.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CurrentTemperatureServlet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/tulupov/weather/servlet/CurrentTemperatureServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+            <state line="20" column="25" selection-start="738" selection-end="738" vertical-scroll-proportion="0.32822758">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NsuWeatherProvider.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NsuWeatherProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/tulupov/weather/provider/NsuWeatherProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="62" selection-start="880" selection-end="880" vertical-scroll-proportion="0.6892779">
+            <state line="10" column="59" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -252,10 +252,10 @@
         <option value="$PROJECT_DIR$/src/ru/tulupov/weather/util/NetworkUtils.java" />
         <option value="$PROJECT_DIR$/src/ru/tulupov/weather/model/Weather.java" />
         <option value="$PROJECT_DIR$/src/ru/tulupov/weather/util/GsonUtils.java" />
-        <option value="$PROJECT_DIR$/src/ru/tulupov/weather/servlet/CurrentTemperatureServlet.java" />
         <option value="$PROJECT_DIR$/src/ru/tulupov/weather/parser/NsuWeatherParser.java" />
         <option value="$PROJECT_DIR$/src/ru/tulupov/weather/model/json/CurrentTemperature.java" />
         <option value="$PROJECT_DIR$/src/ru/tulupov/weather/provider/NsuWeatherProvider.java" />
+        <option value="$PROJECT_DIR$/src/ru/tulupov/weather/servlet/CurrentTemperatureServlet.java" />
       </list>
     </option>
   </component>
@@ -701,7 +701,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1600" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -722,7 +722,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.6701987" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -858,10 +858,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/tulupov/weather/servlet/CurrentTemperatureServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/tulupov/weather/provider/NsuWeatherProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="10" column="59" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,12 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/tulupov/weather/provider/NsuWeatherProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/tulupov/weather/servlet/CurrentTemperatureServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="62" selection-start="880" selection-end="880" vertical-scroll-proportion="0.6892779">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="20" column="25" selection-start="738" selection-end="738" vertical-scroll-proportion="0.32822758">
+          <folding />
         </state>
       </provider>
     </entry>

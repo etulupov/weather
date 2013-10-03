@@ -27,5 +27,8 @@ public class CurrentTemperatureServlet extends HttpServlet {
         os.close();
 
 
+
+        // TODO add dynamic (->)  or (<-) up or down
+
     }
 }
