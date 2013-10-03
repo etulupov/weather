@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="weather-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/weather_webapp_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="weather-webapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="AppEngine API" />
+          <element id="library" level="project" name="com.google.code.gson:gson:2.2.4" />
+          <element id="library" level="project" name="org.apache.commons:com.springsource.org.apache.commons.io:1.4.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="weather-webapp/web/Web" />
+    </root>
+  </artifact>
+</component>
